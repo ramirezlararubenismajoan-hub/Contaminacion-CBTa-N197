@@ -9,7 +9,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 body {
@@ -162,6 +162,7 @@ select,
 textarea {
     width: 100%;
     max-width: 100%;
+    font-size: 1rem;
     padding: 12px;
     border: 2px solid #cbd5e1;
     border-radius: 10px;
@@ -177,7 +178,7 @@ textarea:focus {
     border-color: var(--verde-normal);
     background-color: #ffffff;
     outline: none;
-    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.15);
+    box-shadow: 0 0 0 4px rgba(31, 59, 44, 0.15);
 }
 
 .campo {
@@ -196,7 +197,7 @@ textarea:focus {
 .campo:focus {
     border-color: var(--verde-normal);
     background-color: #ffffff;
-    box-shadow: 0 0 0 4px rgba(22, 163, 74, 0.15);
+    box-shadow: 0 0 0 4px rgba(31, 59, 44, 0.15);
     outline: none;
 }
 
@@ -213,7 +214,7 @@ input[type="reset"] {
     border-radius: 10px;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3);
+    box-shadow: 0 4px 12px rgba(31, 59, 44, 0.3);
     margin-right: 10px;
     margin-top: 10px;
 }
@@ -223,7 +224,7 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background: linear-gradient(135deg, var(--verde-normal), var(--verde-oscuro));
     transform: translateY(-2px);
-    box-shadow: 0 6px 16px rgba(20, 83, 45, 0.4);
+    box-shadow: 0 6px 16px rgba(31, 59, 44, 0.4);
 }
 
 input::placeholder {
@@ -255,12 +256,12 @@ input::placeholder {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 6px solid #4F7D3A;
+    border: 6px solid var(--verde-normal);
 }
 
 @media (min-width: 600px) {
     html {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .encabezado h1 {
